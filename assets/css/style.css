@@ -22,3 +22,7 @@
 .custom-navbar .navbar-nav .custom-nav-link:hover {
   color: var(--mustard);
 }
+
+.services {
+  background-color: var(--lightblue);
+}
