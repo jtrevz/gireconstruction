@@ -1,0 +1,24 @@
+:root {
+  --darkbrown: #2e2a2b;
+  --darkgrey: #545454;
+  --lightgrey: #6b6b6b;
+  --darkblue: #110542;
+  --lightblue: #406999;
+  --mustard: #cb9a28;
+}
+
+/* ::selection {
+  } */
+
+.custom-navbar {
+  background-color: var(--lightblue);
+}
+
+.custom-navbar .navbar-nav .custom-nav-link {
+  font-size: 1.5rem;
+  color: var(--darkblue);
+}
+
+.custom-navbar .navbar-nav .custom-nav-link:hover {
+  color: var(--mustard);
+}
