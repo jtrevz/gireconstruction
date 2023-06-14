@@ -9,6 +9,7 @@
 
 /* ::selection {
   } */
+
 /* ----------------------NAVBAR---------------------- */
 .navbar {
   font-family: "Montserrat", sans-serif;
@@ -32,6 +33,15 @@
 }
 
 /* ----------------------CAROUSEL---------------------- */
+.carousel {
+  max-height: 650px;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
 /* ----------------------BUTTONS---------------------- */
 
 .btn-warning,
@@ -53,12 +63,13 @@
   -ms-transition: all 1s ease;
 }
 
-/* ----------------------Hero---------------------- */
+/* ----------------------HEADER---------------------- */
 
 .landingName {
   width: 100%;
   height: auto;
 }
+/* SERVICES */
 
 .services {
   background-color: var(--lightblue);
