@@ -52,6 +52,13 @@
   -ms-transition: all 1s ease;
 }
 
+/* ----------------------Hero---------------------- */
+
+.landingName {
+  width: 100%;
+  height: auto;
+}
+
 .services {
   background-color: var(--lightblue);
 }
