@@ -33,7 +33,7 @@
 }
 
 .custom-navbar {
-  background-color: var(--lightgrey);
+  background: #6b6b6b;
 }
 
 .custom-navbar .navbar-nav .custom-nav-link {
@@ -88,5 +88,15 @@
 /* SERVICES */
 
 .services {
-  background-color: var(--lightblue);
+  background: var(--lightblue);
+  color: white;
+}
+
+.servicesHeader {
+  font-family: "Montserrat", sans-serif;
+  color: var(--mustard);
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
 }
