@@ -16,6 +16,22 @@
   font-weight: 400;
 }
 
+@media screen and (max-width: 320px) {
+  .navbar-brand {
+    margin: 0.01rem !important;
+  }
+  .navbar-toggler {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    margin: 0.05rem !important;
+  }
+}
+
 .custom-navbar {
   background-color: var(--lightgrey);
 }
