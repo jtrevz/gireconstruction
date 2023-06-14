@@ -9,18 +9,40 @@
 
 /* ::selection {
   } */
+.navbar {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
 
 .custom-navbar {
-  background-color: var(--lightblue);
+  background-color: var(--lightgrey);
 }
 
 .custom-navbar .navbar-nav .custom-nav-link {
-  font-size: 1.5rem;
-  color: var(--darkblue);
+  color: white;
 }
 
 .custom-navbar .navbar-nav .custom-nav-link:hover {
   color: var(--mustard);
+}
+
+.btn-warning,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: var(--mustard) !important;
+  border-color: var(--mustard) !important;
+  color: var(--darkbrown);
+}
+
+.btn-primary:hover {
+  background-color: var(--mustard) !important;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
 }
 
 .services {
