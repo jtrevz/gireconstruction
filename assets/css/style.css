@@ -9,6 +9,7 @@
 
 /* ::selection {
   } */
+/* ----------------------NAVBAR---------------------- */
 .navbar {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -25,6 +26,12 @@
 .custom-navbar .navbar-nav .custom-nav-link:hover {
   color: var(--mustard);
 }
+
+.caret {
+  margin-left: 0.3rem !important;
+}
+
+/* ----------------------Buttons---------------------- */
 
 .btn-warning,
 .btn-primary:hover,
