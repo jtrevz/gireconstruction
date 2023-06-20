@@ -102,7 +102,7 @@
 /* SERVICES */
 
 .services {
-  background: var(--lightblue);
+  background: var(--lightgrey);
   color: white;
 }
 
@@ -115,8 +115,23 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.card {
+  border-radius: 0;
+}
+
 .card-img-top {
   width: 100%;
-  height: 17vw;
+  height: 20vw;
   object-fit: cover;
+}
+
+.card-body {
+  background-color: var(--mustard);
+}
+
+.card-title {
+  padding: 0;
+  text-align: center !important;
+  display: block;
+  line-height: normal;
 }
