@@ -15,7 +15,7 @@
 
 .gar {
   font-family: "Cormorant Garamond", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .merri {
@@ -29,7 +29,6 @@
 
 .mons-b {
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
 }
 
 .mus {
@@ -106,7 +105,8 @@
 .btn-warning:focus {
   background-color: var(--mustard) !important;
   border-color: var(--mustard) !important;
-  color: var(--darkbrown);
+  color: white;
+  font-weight: 500;
 }
 
 .btn-warning:hover {
@@ -173,7 +173,7 @@
 }
 
 .s-line {
-  width: 75%;
+  width: 65%;
   margin: auto;
 }
 
