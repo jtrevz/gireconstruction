@@ -27,6 +27,11 @@
   font-size: 0.8rem;
 }
 
+.mons-b {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
 .mus {
   color: var(--mustard);
 }
@@ -168,7 +173,12 @@
 }
 
 .s-line {
-  width: 35%;
+  width: 75%;
+  margin: auto;
+}
+
+.b-line {
+  width: 15%;
   margin: auto;
 }
 /* Qualities */
