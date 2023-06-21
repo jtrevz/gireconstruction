@@ -15,6 +15,7 @@
 
 .gar {
   font-family: "Cormorant Garamond", sans-serif;
+  font-weight: 600;
 }
 
 .merri {
@@ -23,6 +24,11 @@
 
 .mons {
   font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+}
+
+.mus {
+  color: var(--mustard);
 }
 
 /* ----------------------NAVBAR---------------------- */
@@ -148,5 +154,10 @@
 .overlay {
   /* background: rgb(30, 30, 30); */
   background: var(--mustard);
+  opacity: 80%;
+}
+
+.d-overlay {
+  background: rgb(30, 30, 30);
   opacity: 80%;
 }
