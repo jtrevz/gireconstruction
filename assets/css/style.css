@@ -161,3 +161,14 @@
   background: rgb(30, 30, 30);
   opacity: 80%;
 }
+
+.h-line {
+  width: 45%;
+  margin: auto;
+}
+
+.s-line {
+  width: 35%;
+  margin: auto;
+}
+/* Qualities */
