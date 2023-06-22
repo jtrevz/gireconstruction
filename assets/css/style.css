@@ -182,3 +182,18 @@
   margin: auto;
 }
 /* Qualities */
+
+/* Footer */
+
+.footer {
+  background: rgb(78, 78, 78);
+  color: white;
+}
+
+.footer-brand {
+  height: 60;
+}
+
+.con {
+  font-weight: 200;
+}
