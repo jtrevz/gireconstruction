@@ -203,11 +203,25 @@
   border-color: #fff;
 }
 
+.footer-icon-links:hover {
+  background-color: var(--mustard);
+  color: var(--mustard) !important;
+  border-color: var(--mustard);
+}
+
 .footer-links:hover {
   color: var(--mustard) !important;
   border-color: var(--mustard);
 }
 
-.colorize-pink {
-  filter: brightness(0.5) sepia(1) hue-rotate(-70deg) saturate(5);
+.footer-fb {
+  background-color: #fff;
+  -webkit-mask: url(/assets/img/icons/fb.svg) no-repeat center;
+  mask: url(/assets/img/icons/fb.svg) no-repeat center;
+}
+
+.footer-insta {
+  background-color: #fff;
+  -webkit-mask: url(/assets/img/icons/insta.svg) no-repeat center;
+  mask: url(/assets/img/icons/insta.svg) no-repeat center;
 }
