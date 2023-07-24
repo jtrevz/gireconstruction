@@ -216,12 +216,12 @@
 
 .footer-fb {
   background-color: #fff;
-  -webkit-mask: url(/assets/img/icons/fb.svg) no-repeat center;
-  mask: url(/assets/img/icons/fb.svg) no-repeat center;
+  -webkit-mask: url(./assets/img/icons/fb.svg) no-repeat center;
+  mask: url(./assets/img/icons/fb.svg) no-repeat center;
 }
 
 .footer-insta {
   background-color: #fff;
-  -webkit-mask: url(/assets/img/icons/insta.svg) no-repeat center;
-  mask: url(/assets/img/icons/insta.svg) no-repeat center;
+  -webkit-mask: url(./assets/img/icons/insta.svg) no-repeat center;
+  mask: url(./assets/img/icons/insta.svg) no-repeat center;
 }
